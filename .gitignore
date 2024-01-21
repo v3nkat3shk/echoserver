@@ -1,0 +1,4 @@
+echoserver
+test.db
+go.sum
+**/vendor
