@@ -2,7 +2,6 @@ package server
 
 import (
 	"context"
-	"example/echoserver/api"
 	"net/http"
 	"os"
 	"os/signal"
@@ -10,6 +9,7 @@ import (
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
+	"github.com/v3nkat3shk/echoserver/api"
 	"gorm.io/gorm"
 )
 

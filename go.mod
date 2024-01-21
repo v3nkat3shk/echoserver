@@ -1,4 +1,4 @@
-module example/echoserver
+module github.com/v3nkat3shk/echoserver
 
 go 1.21.5
 

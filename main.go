@@ -1,8 +1,8 @@
 package main
 
 import (
-	"example/echoserver/database"
-	"example/echoserver/server"
+	"github.com/v3nkat3shk/echoserver/database"
+	"github.com/v3nkat3shk/echoserver/server"
 )
 
 func main() {

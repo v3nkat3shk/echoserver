@@ -1,6 +1,6 @@
 package database
 
-import "example/echoserver/types"
+import "github.com/v3nkat3shk/echoserver/types"
 
 var STORE = []types.User{
 	{

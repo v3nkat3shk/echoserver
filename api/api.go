@@ -1,11 +1,11 @@
 package api
 
 import (
-	"example/echoserver/database"
-	"example/echoserver/types"
 	"net/http"
 
 	"github.com/labstack/echo/v4"
+	"github.com/v3nkat3shk/echoserver/database"
+	"github.com/v3nkat3shk/echoserver/types"
 )
 
 func CreateUser(c echo.Context) error {
