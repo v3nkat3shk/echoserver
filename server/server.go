@@ -37,6 +37,7 @@ func (e *EchoApp) Start() {
 func (e *EchoApp) initializeApplication() {
 	apiV1 := e.App.Group("/api/v1")
 
+	e.App.Pre(middleware.RemoveTrailingSlash())
 	apiV1.Use(middleware.LoggerWithConfig(middleware.LoggerConfig{
 		Format: "${method} ${host}${route} ${latency_human}\n",
 	}))
